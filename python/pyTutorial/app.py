@@ -1,7 +1,8 @@
 
 
 employee_file = open('employees.txt', 'r')
-
+employeeArray = employee_file.readlines()
+print(employeeArray[2])
 # Readable
 # print(employee_file.read())  // Read all file
 # print(employee_file.readlines())  // Takes each line and put it in array, can call index []
